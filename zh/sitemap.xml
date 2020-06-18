@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://kindlecn.github.io/docs/</loc>
+    <lastmod>2020-06-18T18:08:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kindlecn.github.io/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A82/</loc>
+    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kindlecn.github.io/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kindlecn.github.io/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A82/%E5%8F%A6%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2020-01-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kindlecn.github.io/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/in-depth-java-detailed-spec/</loc>
+    <lastmod>2017-01-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kindlecn.github.io/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/lalala/</loc>
+    <lastmod>2017-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kindlecn.github.io/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/the-math-of-recursion-the-inner-workings/</loc>
+    <lastmod>2017-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kindlecn.github.io/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/the-inside-of-java-the-core-concepts/</loc>
+    <lastmod>2017-01-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kindlecn.github.io/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kindlecn.github.io/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/the-math-of-go-the-inner-workings/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kindlecn.github.io/</loc>
+    <lastmod>2020-06-18T18:08:12+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kindlecn.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://kindlecn.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kindlecn.github.io/search/</loc>
+    <lastmod>2020-06-18T18:08:12+08:00</lastmod>
+  </url>
+  
+</urlset>
