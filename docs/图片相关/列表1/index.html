@@ -21,27 +21,34 @@
 <link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
-<title>Praktiske eksempler | Kindle CN FAQ</title><meta property="og:title" content="Praktiske eksempler" />
+<title>如何使用Excel | Kindle CN FAQ</title><meta property="og:title" content="如何使用Excel" />
 <meta property="og:description" content="En kort oppsummering av denne siden. Tekst kan **utheves** sller skrives i _kursiv_ og kan ha flere avsnitt.
 " />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://kindlecn.github.io/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/" />
-<meta property="og:updated_time" content="2017-01-05T00:00:00+00:00" /><meta property="og:site_name" content="Kindle CN FAQ" />
-<meta itemprop="name" content="Praktiske eksempler">
+<meta property="og:updated_time" content="2020-06-05T00:00:00+00:00" /><meta property="og:site_name" content="Kindle CN FAQ" />
+<meta itemprop="name" content="如何使用Excel">
 <meta itemprop="description" content="En kort oppsummering av denne siden. Tekst kan **utheves** sller skrives i _kursiv_ og kan ha flere avsnitt.
-">
+"><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="如何使用Excel"/>
+<meta name="twitter:description" content="En kort oppsummering av denne siden. Tekst kan **utheves** sller skrives i _kursiv_ og kan ha flere avsnitt.
+"/>
 
 
 
 
-<link rel="preload" href="/scss/main.min.b022977dad564c9acdf83386581dadbef9d3bb0d0d0ada624c278786be82102f.css" as="style">
-<link href="/scss/main.min.b022977dad564c9acdf83386581dadbef9d3bb0d0d0ada624c278786be82102f.css" rel="stylesheet" integrity="">
+<link rel="preload" href="/scss/main.min.8638df515e0ee8dc7be0d0d7ded942fa68a9ac190b5b7bebbfd5fc41e04a5e05.css" as="style">
+<link href="/scss/main.min.8638df515e0ee8dc7be0d0d7ded942fa68a9ac190b5b7bebbfd5fc41e04a5e05.css" rel="stylesheet" integrity="">
 
 
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script src="/js/lunr.js"></script>
+
 
 
 
@@ -68,15 +75,36 @@
 			</li>
 			
 			
-			
 			<li class="nav-item dropdown d-none d-lg-block">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	工具列表
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	<a class="dropdown-item" href="http://ocrmaker.com/" target="_blank">在线字体转换</a>
+	<a class="dropdown-item" href="https://bigjpg.com/" target="_blank">图片放大</a>
+	<a class="dropdown-item" href="https://www.pdfpai.com/" target="_blank">PDF相关</a>
+	<a class="dropdown-item" href="https://docsmall.com/" target="_blank">在线压缩</a>
+	<a class="dropdown-item" href="https://www.uupoop.com/" target="_blank">在线PS</a>
+	<a class="dropdown-item" href="http://www.aies.cn/" target="_blank">在线OCR</a>
+	<a class="dropdown-item" href="https://www.weixinsyt.com/" target="_blank">在线剪辑音频</a>
+</div>
 
 			</li>
-			
 		</ul>
 	</div>
 	<div class="navbar-nav d-none d-lg-block">
-<input type="search" class="form-control td-search-input" placeholder="&#xf002 搜索…" aria-label="搜索…" autocomplete="off">
+
+
+<input
+  type="search"
+  class="form-control td-search-input"
+  placeholder="&#xf002; 搜索…"
+  aria-label="搜索…"
+  autocomplete="off"
+  
+  data-offline-search-index-json-src="/offline-search-index.8ce11c17284b6ce4e4ce4d6e82c60d08bd5e966209c1612eed2a510268a84d69f996e201f05e5f7e436180a2fa97be9c8c188132cf1390fdc25e19494c3dbc0d.json"
+  data-offline-search-base-href="/"
+>
 
 </div>
 </nav>
@@ -95,7 +123,18 @@
   
   <form class="td-sidebar__search d-flex align-items-center">
     
-<input type="search" class="form-control td-search-input" placeholder="&#xf002 搜索…" aria-label="搜索…" autocomplete="off">
+
+
+<input
+  type="search"
+  class="form-control td-search-input"
+  placeholder="&#xf002; 搜索…"
+  aria-label="搜索…"
+  autocomplete="off"
+  
+  data-offline-search-index-json-src="/offline-search-index.8ce11c17284b6ce4e4ce4d6e82c60d08bd5e966209c1612eed2a510268a84d69f996e201f05e5f7e436180a2fa97be9c8c188132cf1390fdc25e19494c3dbc0d.json"
+  data-offline-search-base-href="/"
+>
 
 
     <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type="button" data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
@@ -134,7 +173,7 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">列表1</a>
+    <a  href="/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">图片相关</a>
   </li>
   <ul>
     <li class="collapse show" id="docse59bbee78987e79bb8e585b3">
@@ -172,12 +211,6 @@
       
       
       
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docse59bbee78987e79bb8e585b3lalala" href="/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/lalala/">lalala</a>
-      
-      
-      
-      
 
 
 
@@ -186,7 +219,7 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Eksempler</a>
+    <a  href="/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">列表1</a>
   </li>
   <ul>
     <li class="collapse show" id="docse59bbee78987e79bb8e585b3e58897e8a1a81">
@@ -196,25 +229,7 @@
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docse59bbee78987e79bb8e585b3e58897e8a1a81in-depth-java-detailed-spec" href="/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/in-depth-java-detailed-spec/">Detaljert om Java</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docse59bbee78987e79bb8e585b3e58897e8a1a81the-math-of-recursion-the-inner-workings" href="/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/the-math-of-recursion-the-inner-workings/">Matten til rekursjon</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docse59bbee78987e79bb8e585b3e58897e8a1a81the-inside-of-java-the-core-concepts" href="/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/the-inside-of-java-the-core-concepts/">Innsiden av Java</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docse59bbee78987e79bb8e585b3e58897e8a1a81the-math-of-go-the-inner-workings" href="/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/the-math-of-go-the-inner-workings/">Matten til Go</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docse59bbee78987e79bb8e585b3e58897e8a1a81lalala" href="/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/lalala/">lalala</a>
       
       
     </li>
@@ -252,10 +267,7 @@
 
 
 
-
-
-<a href="https://github.com/google/docsy-example/edit/master/content/zh/docs/%e5%9b%be%e7%89%87%e7%9b%b8%e5%85%b3/%e5%88%97%e8%a1%a81/_index.md" target="_blank"><i class="fa fa-edit fa-fw"></i> 编辑此页</a>
-<a href="https://github.com/google/docsy-example/issues/new?title=Praktiske%20eksempler" target="_blank"><i class="fab fa-github fa-fw"></i> 提交文档问题</a>
+<a href="https://github.com/kindlecn/kindlecn.github.io/issues/new?title=%e5%a6%82%e4%bd%95%e4%bd%bf%e7%94%a8Excel" target="_blank"><i class="fab fa-github fa-fw"></i> 提交文档问题</a>
 
 
 <a href="https://github.com/kindlecn/kindlecn.github.io/issues/new" target="_blank"><i class="fas fa-tasks fa-fw"></i> 提交项目问题</a>
@@ -295,14 +307,14 @@
 
 
 <li class="breadcrumb-item" >
-	<a href="https://kindlecn.github.io/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/">列表1</a>
+	<a href="https://kindlecn.github.io/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/">图片相关</a>
 </li>
 
 
 
 
 <li class="breadcrumb-item active" aria-current="page">
-	<a href="https://kindlecn.github.io/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/">Eksempler</a>
+	<a href="https://kindlecn.github.io/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/">列表1</a>
 </li>
 
 	</ol>
@@ -310,7 +322,7 @@
 
             
 <div class="td-content">
-	<h1>Praktiske eksempler</h1>
+	<h1>如何使用Excel</h1>
         <div class="lead">En kort oppsummering av denne siden. Tekst kan <strong>utheves</strong> sller skrives i <em>kursiv</em> og kan ha flere avsnitt.</div>
 	
 	<p>Dette er landingssiden til en seksjon et sted nede i seksjonshierarkiet.</p>
@@ -338,41 +350,13 @@
             
                 <div class="entry">
                     <h5>
-                        <a href="/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/in-depth-java-detailed-spec/">Detaljert om Java: Detaljert spesifikasjon</a>
+                        <a href="/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/lalala/">啦啦啦</a>
                     </h5>
-                    <p>En kort oppsummering av denne siden. Tekst kan <strong>utheves</strong> sller skrives i <em>kursiv</em> og kan ha flere avsnitt.</p>
+                    <p>Queue的价格需要上传metadata模板批量修改，excel文件改成xxxCN_metadata.xls 出版社的code
+如果改封面， Mobi, cover: XXXCN[[XXXCN_20200530_0001]].mobi</p>
                 </div>
             
         
-            
-        
-            
-                <div class="entry">
-                    <h5>
-                        <a href="/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/the-math-of-recursion-the-inner-workings/">Matten til rekursjon: Drivverket</a>
-                    </h5>
-                    <p>En kort oppsummering av denne siden. Tekst kan <strong>utheves</strong> sller skrives i <em>kursiv</em> og kan ha flere avsnitt.</p>
-                </div>
-            
-        
-            
-                <div class="entry">
-                    <h5>
-                        <a href="/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/the-inside-of-java-the-core-concepts/">Innsiden av Java: De grunnleggende konseptene</a>
-                    </h5>
-                    <p>En kort oppsummering av denne siden. Tekst kan <strong>utheves</strong> sller skrives i <em>kursiv</em> og kan ha flere avsnitt.</p>
-                </div>
-            
-        
-            
-        
-            
-                <div class="entry">
-                    <h5>
-                        <a href="/docs/%E5%9B%BE%E7%89%87%E7%9B%B8%E5%85%B3/%E5%88%97%E8%A1%A81/the-math-of-go-the-inner-workings/">Matten til Go: Drivverket</a>
-                    </h5>
-                    <p>En kort oppsummering av denne siden. Tekst kan <strong>utheves</strong> sller skrives i <em>kursiv</em> og kan ha flere avsnitt.</p>
-                </div>
             
         
     
@@ -380,7 +364,7 @@
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">最后修改 05.01.2017
+	<div class="text-muted mt-5 pt-3 border-top">最后修改 05.06.2020
 </div>
 </div>
 
@@ -420,7 +404,10 @@
 
 
 
-<script src="/js/main.min.a33733d28b99a1571f6d916081cc45e60401ab379835a4acbf1dced11ba10489.js" integrity="sha256-ozcz0ouZoVcfbZFggcxF5gQBqzeYNaSsvx3O0RuhBIk=" crossorigin="anonymous"></script>
+
+
+
+<script src="/js/main.min.7afee248b9b3c1d4438c6841cc272ae0ac1f81a3ee5c0ed939f1d57c18de3f7d.js" integrity="sha256-ev7iSLmzwdRDjGhBzCcq4KwfgaPuXA7ZOfHVfBjeP30=" crossorigin="anonymous"></script>
 
 
 
