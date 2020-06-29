@@ -62,6 +62,36 @@
 
 
 
+<script>
+(function($) {
+
+    'use strict';
+
+    var Search = {
+        init: function() {
+            $(document).ready(function() {
+               $(document).on('keypress', '.td-search-input', function(e) {
+                    if (e.keyCode !== 13) {
+                        return
+                    }
+
+                    var query = $(this).val();
+                    var searchPage = "https:\/\/kindlecn.github.io\/search\/?q=" + query;
+                    document.location = searchPage;
+
+                    return false;
+                });
+
+            });
+        },
+    };
+
+    Search.init();
+
+
+}(jQuery));
+</script>
+
   </head>
   <body class="td-page">
     <header>
@@ -72,6 +102,22 @@
 	</a>
 	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
 		<ul class="navbar-nav mt-2 mt-lg-0">
+			<li class="nav-item dropdown d-none d-lg-block">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	工具列表
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	<a class="dropdown-item" href="http://www.aies.cn/" target="_blank">在线字体转换</a>
+	<a class="dropdown-item" href="https://bigjpg.com/" target="_blank">图片放大</a>
+	<a class="dropdown-item" href="https://www.pdfpai.com/" target="_blank">PDF相关</a>
+	<a class="dropdown-item" href="https://docsmall.com/" target="_blank">在线压缩</a>
+	<a class="dropdown-item" href="https://www.uupoop.com/" target="_blank">在线PS</a>
+	<a class="dropdown-item" href="http://ocrmaker.com/" target="_blank">在线OCR</a>
+	<a class="dropdown-item" href="https://web.baimiaoapp.com/" target="_blank">白描</a>
+	<a class="dropdown-item" href="https://www.weixinsyt.com/" target="_blank">在线剪辑音频</a>
+</div>
+
+			</li>
 			
 			
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
@@ -85,38 +131,9 @@
 			</li>
 			
 			
-			<li class="nav-item dropdown d-none d-lg-block">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	工具列表
-</a>
-<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-	<a class="dropdown-item" href="http://www.aies.cn/" target="_blank">在线字体转换</a>
-	<a class="dropdown-item" href="https://bigjpg.com/" target="_blank">图片放大</a>
-	<a class="dropdown-item" href="https://www.pdfpai.com/" target="_blank">PDF相关</a>
-	<a class="dropdown-item" href="https://docsmall.com/" target="_blank">在线压缩</a>
-	<a class="dropdown-item" href="https://www.uupoop.com/" target="_blank">在线PS</a>
-	<a class="dropdown-item" href="http://ocrmaker.com/" target="_blank">在线OCR</a>
-	<a class="dropdown-item" href="https://www.weixinsyt.com/" target="_blank">在线剪辑音频</a>
-</div>
-
-			</li>
 		</ul>
 	</div>
-	<div class="navbar-nav d-none d-lg-block">
-
-
-<input
-  type="search"
-  class="form-control td-search-input"
-  placeholder="&#xf002; 搜索…"
-  aria-label="搜索…"
-  autocomplete="off"
-  
-  data-offline-search-index-json-src="/offline-search-index.fddad4fc783169a03a14aa362e6c2a4a52db047fbb5e6f8c86c4e12194903694a6a9599fbeecf98d7a1915663253960e153ea22c81586da14b71189ed3305ba8.json"
-  data-offline-search-base-href="/"
->
-
-</div>
+	
 </nav>
 
     </header>
